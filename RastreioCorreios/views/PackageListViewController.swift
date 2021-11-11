@@ -16,10 +16,10 @@ class PackageListViewController: UIViewController , UITableViewDelegate , UITabl
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        let evento1 = EventStruct(dataPostagem: "teste", descricao: "teste", hora: "teste")
-        let objeto1 = PackageStruct(numero: "LM192301239BR", evento: evento1)
+        let evento1 = EventStruct(dataPostagem: "teste", descricao: "Encaminhado", hora: "teste")
+        let objeto1 = PackageStruct(numero: "TE123456789BR", evento: evento1)
         
-        for _ in 1...100 {
+        for _ in 1...10 {
             list.add(objeto1)
         }
     }
