@@ -1,1 +1,10 @@
+# Xcode
+
+## User settings
+xcuserdata/
+xcshareddata/
+# OS-specific files
+.DS_Store
+.Trashes
+# Pods
 Pods/
